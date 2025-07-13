@@ -7,21 +7,26 @@
     body {
       margin: 0;
       padding: 0;
-      background-image: url('hot_sauce_house.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
+      background-color: #fdfdfd;
       font-family: 'Segoe UI', sans-serif;
     }
 
     .overlay {
-      background-color: rgba(255, 255, 255, 0.75);
+      background-color: rgba(255, 255, 255, 0.95);
       margin: 5vh auto;
       padding: 2rem;
       max-width: 800px;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       text-align: center;
+    }
+
+    img.header-photo {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
     h1 {
@@ -44,6 +49,7 @@
 </head>
 <body>
   <div class="overlay">
+    <img src="background.jpg" alt="Hot Sauce House Group Photo" class="header-photo">
     <h1>To Tiffany, Vaishnavi, Arjah, and Karei</h1>
     <div class="message">
       You four are extraordinary.<br><br>
